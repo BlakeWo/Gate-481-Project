@@ -1,0 +1,15 @@
+---
+layout: default
+title:  "Blog 0"
+date:   2020-09-04
+categories: jekyll update
+---
+
+<h2>Introduction</h2>
+Hey there! Here's my first blog. My name is Blake Wolf, I'm a senior at CSUN currently and I'm also enrolled in CIT 425 and CIT 384 this semester. This is the first time I've ever messed around with GitHub, so I'm stumbling around a bit but I'm finding some footing. So far, we've taken a basic look at HTML coding in 384 and done some editing to already existing code. 
+
+<h2>Working with HTML</h2>
+I've had very little experience with HTML, but I've been previously exposed to it. One of the things I like the most about it is that it's very easy to view the changes you're making on the fly. Coding wise, it isn't the hardest thing to do, but it allows for a lot of customization. There were a few tasks that I wasn't completely sure about, but I managed to find my way around it.
+
+<h2>CIT 425</h2>
+This semester, I have Kaplan for CIT 425. We're working on a lab involving 2 different VMs. One is Kali and the other is Metasploitable. We had to set both of these VMs up and then set them both to a local host and make sure that they could ping each other on the same network. This is just the 1st part of the lab. The 2nd is a bit more interesting, where we actually get to penetrate the VMs using malicious software. 
