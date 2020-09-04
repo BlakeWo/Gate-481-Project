@@ -23,7 +23,7 @@ email: blake.wolf.128@my.csun.edu
 description: >- # this means to ignore newlines until "baseurl:"
   CIT student at CSUN. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "blakewo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  BlakeWo
 # Build settings
 theme: minima
