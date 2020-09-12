@@ -10,8 +10,8 @@ categories: jekyll update
 <h2>Overview</h2>
 This week, I did a ton of HTML work. There were about 3 assignments due on a single day for CIT 384.
 <h2>HTML Homework</h2>
-For the first assignment, we had to learn how to properly format an HTML page. We had one example page to look at to see how it should look, and 4 other pages that needed a ton of organization. We learned how to use the section, nav, aside, and article tags.<br/>
-In the next assignment, we had to learn how to link pages to each other within the same directory. We also had to create links to external sites. Lastly, we had to create links within the document that would jump to certain sections of the same page or even from a different page on the same site.<br/>
+For the first assignment, we had to learn how to properly format an HTML page. We had one example page to look at to see how it should look, and 4 other pages that needed a ton of organization. We learned how to use the section, nav, aside, and article tags.<br/><br/>
+In the next assignment, we had to learn how to link pages to each other within the same directory. We also had to create links to external sites. Lastly, we had to create links within the document that would jump to certain sections of the same page or even from a different page on the same site.<br/><br/>
 For the last assignment, we had to learn how to use HTML lists. There were about 3 that I used: ordered, unordered, and finally description. Description was definitely the most time consuming one. 
 
 Thank you for reading!<br/>
