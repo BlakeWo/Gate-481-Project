@@ -1,0 +1,16 @@
+---
+layout: default
+title:  "Blog 2"
+date:   2020-09-18
+categories: jekyll update
+---
+
+<h1>Blog 2</h1>
+
+<h2>Overview</h2>
+This week, I didn't have much to do but I did have a pretty comlex lab to do for CIT 425. 
+<h2>Lab 0A/0B</h2>
+We had to install two different VMs within VirtualBox for this lab. We had to get an instance of both Metasploitable and Kali Linux running. They were older versions that have vulnerabilities. After getting them up and running, we had to setup a HTML website on Metasploitable. Making sure that there was a host-only connection, I made sure that the two VMs weren't leaking into my home network. After that, I used several apps in Kali to find the Metasploitable instance on the network and find vulnerabilities. After trying a few different attacks, I managed to run one that gave me root access to the instance. From there, I messed with the HTML file I created and the lab was finished.
+
+Thank you for reading!<br/>
+Blake
