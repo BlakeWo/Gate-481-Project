@@ -1,0 +1,20 @@
+---
+layout: default
+title:  "Blog 5"
+date:   2020-010-09
+categories: jekyll update
+---
+
+<h1>Blog 5</h1>
+
+<h2>Overview</h2>
+This week, not much happened in terms of CIT/IT related work for me. I had a resume website to construct in HTML with styling from CSS. Lastly, my group and I had to create 4 different Usage Data Models for our UI design. 
+
+<h2>Resume Site</h2>
+We were tasked with creating a basic website which would double as our resume. Taking my current resume, I used it as a template to create a basic format. A large part of the HTML was already provided for us, but we had to fill out all the sections. This assignment was mainly about taking a raw, plain HTML page and styling it with CSS. We gave it color palletes and pictures. We also took 2 different Google fonts and embedded them within our pages to make it look even better. We're not finished with the website yet, but so far, it's looking pretty good. 
+
+<h2>Usage Data Models</h2> 
+Our group is making a TTS framework for our COMP 485 class. We have so far two different langauges we're going to support, English and Spanish. It's a semester long project, but we did have to make 4 different Usage Data Models. For the assignment, we made a State Diagram, User Work Role, Data Usage Flow, and an Artifact diagram. 
+
+Thank you for reading!<br/>
+Blake
