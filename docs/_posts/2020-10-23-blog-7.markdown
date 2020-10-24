@@ -1,0 +1,17 @@
+---
+layout: default
+title:  "Blog 7"
+date:   2020-10-23
+categories: jekyll update
+---
+
+<h1>Blog 7</h1>
+
+<h2>Overview</h2>
+Over the course of this week, not much was due. For CIT 384, I was assigned to a group for the final project of the class. We decided upon making a trivia-based website where a user can select a random topic from the website and be prompted to answer random questions. Lastly, I had a lab to crack UNIX passwords for CIT 425. 
+
+<h2>CIT 425 Lab</h2>
+This lab was kind of difficult to do, mainly on the coding side. We were provided with two different files, an etc_shadow file and a text file containing 100,000 passwords. We were tasked with writing a script to compare the hash value of the user to the password hashes generated from the file by using the crypt command from python. The script ran through each password in the file one by one until it found the password associated with the account in question. There were 5 accounts in total that needed to be cracked. After we created the script, we were tasked with using a program on Kali Linux to crack them. I ended up going with Johnny (a GUI for John the Ripper) to crack the passwords again. It was much easier but I wasn't able to find one of the users' password using this method. 
+
+Thank you for reading!<br/>
+Blake
