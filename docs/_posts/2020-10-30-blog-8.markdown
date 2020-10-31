@@ -1,0 +1,17 @@
+---
+layout: default
+title:  "Blog 8"
+date:   2020-10-30
+categories: jekyll update
+---
+
+<h1>Blog 8</h1>
+
+<h2>Overview</h2>
+This week, not much happened. We were assigned one homework assignment for CIT 425. 
+
+<h2>CIT 425 Homework</h2>
+I initially had a ton of problems setting this up. For some reason, the installation wouldn't work. After researching the error code, it turned out Hyper-V on Windows was messing it up. After some Googling, I turned it off and proceeded with the installation. For the assignemnt, we had to install and configure a SecurityOnion virtual machine. I bypassed the first step in the installation (misread the instructions) and attempted workarounds to no luck. After actually installing the OS from the image (the first step), setting it up was extremely easy. 
+
+Thank you for reading!<br/>
+Blake
