@@ -1,0 +1,18 @@
+---
+layout: default
+title:  "Blog 11"
+date:   2020-11-20
+categories: jekyll update
+---
+
+
+<h1>Blog 11</h1>
+
+<h2>Overview</h2>
+This week I finished another CIT 425 lab. It was a continuation of the previous lab where I created a SecurityOnion VM that I mentioned in the last blog post. 
+
+<h2>CIT 425 Homework</h2>
+In this assignment, I had to run Sguil and use tcpreplay on attack files. I was tasked with watching Sguil realtime events and understand what was causing them, where they were going, and where they were coming from. I also had to log how many packets were being sent in each attack. The first attack was an IP fragmentation attack. I had to deteremine whether they were TCP, UDP, or ICMP packets and identify the type of attack it was using Sguil alone. Sguil also gave me the TTL of each IPv4 packet that was sent. Next, I had to replay a Bredolab trojan attack and again, monitor the traffic from Sguil and talk about them. Going further into detail, I was tasked with finding out how the IDS caught each of these attacks, what source port they were hitting, what files were being downloaded, and get information about the domain names of the machines involved and what vendor they were associated with. 
+
+Thank you for reading!<br/>
+Blake
