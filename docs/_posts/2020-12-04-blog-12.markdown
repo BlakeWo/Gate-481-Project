@@ -1,0 +1,27 @@
+---
+layout: default
+title:  "Blog 12"
+date:   2020-12-04
+categories: jekyll update
+---
+
+<h1>Blog 12</h1>
+
+
+<h2>Overview</h2>
+For this week, I've had a ton of web development homework. In this blog post, I'm going to cover the two major assignments that were handled this week. 
+
+<h2>CIT 384 Map/Timed Typing Game</h2>
+The first big assignment that was due this week was a timed typing test. We were given a basic template with a non-functioning clock and a text box to input text. We had to pick some sample text to be the origin text to be tested against. After that, we had to pull that origin text from a tag to be read as the person was typing it. A box around the text area would either be green if it was correct or red if it wasn't matching. Undoubtedly the hardest part of this assignment was adjusting the timer to begin when the person began typing and stop when the text was finished. Lastly, we had to collect the 5 fastest times and put them on a leaderboard. 
+
+Next up for this class, we had to create a map game. Using Google API, we had to create website from scratch that included a fixed map of CSUN and had the user guess where 5 locations were. If the user were to click the right area, a green rectangle would pop up, but if not the right area, a red box. The locations were in sequence with each other and had a counter on the right side displaying how many they got right. 
+
+<h2>Terraform</h2>
+A big part of CIT 480 so far has been AWS work. In this lab, we had to dive into using terraform to imeplement two EC2 instances amongst other things. Attaching security groups to the instances and creating IAM roles were also a part of the lab. It was a little hard to get it working on Windows and doing everything outside of a VM or using Docker, but I got it up and running locally. Using terraform plan was incredibly helpful for not only doing this lab, but being able to see what was going to be deployed before doing so. Terraform destroy also helped a ton when trying to see if everything would work from the start.
+
+<h2>Conclusion</h2>
+The last blog post of this semester! I hope you have a great holiday! Stay safe, wishing all the best.
+
+
+Thank you for reading!<br/>
+Blake
