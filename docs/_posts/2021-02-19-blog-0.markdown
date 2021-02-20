@@ -1,12 +1,12 @@
 ---
 layout: default
-title:  "Blog 0"
+title:  "Blog 0-SP21"
 date:   2021-02-19
 categories: jekyll update
 ---
 
 
-<h1>Blog 0</h1>
+<h1>Blog 0-SP21</h1>
 
 <h2>Overview</h2>
 This week, I had to troubleshoot audio equipment and compare/constrast my current GPU to more recent ones as my current GPU is in dire need of an upgrade.
