@@ -1,0 +1,26 @@
+---
+layout: default
+title:  "Blog 1-SP21"
+date:   2021-02-26
+categories: jekyll update
+---
+
+
+<h1>Blog 1-SP21</h1>
+
+<h2>Overview</h2>
+This week, I had to troubleshoot downloading Bash on my Windows PC and my group and I started working on the automation for our infrastructure. 
+
+<h2>Bash on PC</h2>
+Windows recently gave users an option to download Bash in an update for Windows 10. They teamed up with Canonical to build a new infrastructure in a Windows Subsystem for Linux (WSL). It gives you on Windows access to a Ubuntu CLI and utilities. In order to do this, you need to have an x64 Windows 10 Anniversery Build or later. You can figure out what version of Windows you have by typing in winver in a command prompt. If your build is less than 14393, you can't download it. In order to enable it, you need to first turn on Developer Mode. To do this, you need to go to Settings -> For Developers -> Select Developer Mode -> Confirm. Now, you need to enable the Linux feature. The easiest way to do this is to go into PowerShell for Admin and copy+paste this code in: Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux. Once this is done, you need to open a command prompt and type in bash to begin installing it. Once that's finished, all you need to do is use command prompt or use the newly created desktop shortcut. 
+<br>
+I needed this to run ansible for the group project, which prompted me setting this up. I highly recommend anyone on a Windows system to do the same as it's much better than running a VM in order to access a Ubuntu system. 
+
+<h2>Automation Work</h2>
+For the group project, I've started working on the automation for the infrastructure. So far, it's going well on paper but I need an auth_token in order to start the server itself, which means I can't test it yet. We face a few challenges in our infrastructure, as we're using a Droplet server and then bringing a Docker image into it, which means we need to have Docker installed on it beforehand. But how do we automate starting a server that needs an auth_token? Much work to be done still... will keep this updated. 
+
+<h2>Conclusion</h2>
+Got a bunch of IT stuff done this week. Very happy. Even helped some technicians pull POS systems down at a Helzberger Diamonds and package them, didn't feel the need to elaborate on that though. 
+
+Thank you for reading!<br/>
+Blake
