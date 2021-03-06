@@ -1,0 +1,31 @@
+---
+layout: default
+title:  "Blog 2-SP21"
+date:   2021-03-05
+categories: jekyll update
+---
+
+
+<h1>Blog 2-SP21</h1>
+
+<h2>Overview</h2>
+This week, I studied how to take an AWS S3 bucket and host websites on it. 
+
+<h2>S3 Bucket Hosting</h2>
+S3 buckets can only host static websites. What this means is that the server doesn't run any server side code and consists only of an HTML file, a CSS stylization file, and lastly a JavaScript file. This helps because you don't need to create a server to run the web page so it's generally cheaper. To give you an idea, it's about a $1-2 a month to host it. To give you a basic understanding of an S3 bucket, it's a bucket which act as storage containers for files. So, to host a website on the bucket, you first need to create one. When creating it, you have to make sure the name of the bucket is the same as the domain name you're going to use. The reason behind this is the way that S3 requests are routed. The S3 bucket then uses the host header in the request to route you to the right bucket. In order to configure the bucket for hosting, you need to: 
+<ul>
+  <li>Navigate to S3 in AWS</li>
+  <li>Click your bucket</li>
+  <li>Click "Properties"</li>
+  <li>Click the "Static website hosting" button</li>
+  <li>Select "Use this bucket to host a website" and lastly</li>
+  <li>Put "index.html" as the Index document</li>
+</ul>
+
+Now, in order for people to access your website, you need to change a few things. By default, new buckets don't let you add a public access bucket policy. To host a static website, we need to allow for that. We'll cover that next week as we work through the website. 
+
+<h2>Conclusion</h2>
+As the group is getting ready to deploy our website, I've been learning how to host it using AWS S3 buckets. I hope you learned a little bit, I know it's an interesting and easy way to deploy websites and I can't wait to dive in a but further. 
+
+Thank you for reading!<br/>
+Blake
