@@ -1,0 +1,40 @@
+---
+layout: default
+title:  "Blog 3-SP21"
+date:   2021-03-12
+categories: jekyll update
+---
+
+
+<h1>Blog 3-SP21</h1>
+
+<h2>Overview</h2>
+This week, I studied how to deploy Go applications on an AWS EC2 instance.
+
+<h2>Setting up an EC2 instance</h2>
+First, you need to setup an EC2. You can automate this through ansible, which is what my group currently plans to do. You can activate one by:
+<ul>
+  <li>Log into AWSopening up the AWS Management Console</li>
+  <li>Open the AWS Management Console</li>
+  <li>Click on EC2</li>
+  <li>Click launch instance</li>
+  <li>Choose the EC2 instance type (you can pick images that already have Go installed)</li>
+  <li>Choose t2.micro for the hardware configuration</li>
+  <li>Click on "Configure Instance Details"</li>
+  <li>Click on "Add Storage"</li>
+  <li>Click on "Add Tags"</li>
+  <li>Click on "Configure Security Groups" and choose the port number your server will listen on</li>
+  <li>Now, click on "Review and Launch" and then "Launch"</li>
+  <li>You should now be prompted for a key pair. You can either choose an existing one or create one</li>
+  <li>Now you can finally launch it!</li>
+</ul>
+You can verify it's running by checking your running instances tab. It may take a few minutes to show up.
+
+<h2>Connecting to EC2 instance/Configuring EC2</h2>
+Now that the instance is running, we need to connect to it and download Golang. You can use the EC2's Public DNS (IPv4) address for this purpose. Once connected, you need to run "sudo yum update -y" and then "sudo yum install -y golang" to setup the Go environment variables. You should also consider setting environment variables for GOROOT, GOPATH, and PATH. After this is done, you now have a working EC2 with Go installed! At this point, you have a few options. What we're doing in my group is git pulling our Go application and running it from there. If you want to run your Go application, all you need to do is type in "go run [app_name].go" where app_name is whatever the file is named. To test if it's working, all you need to do is copy + paste the EC2's Public DNS name into a browser.  
+
+<h2>Conclusion</h2>
+This was a little more simple than I imagined it would be. That's a good thing, as it should help my group setting up the automation for our infrastructure. 
+
+Thank you for reading!<br/>
+Blake
