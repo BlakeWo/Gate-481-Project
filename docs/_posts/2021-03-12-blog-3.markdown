@@ -14,8 +14,7 @@ This week, I studied how to deploy Go applications on an AWS EC2 instance.
 <h2>Setting up an EC2 instance</h2>
 First, you need to setup an EC2. You can automate this through ansible, which is what my group currently plans to do. You can activate one by:
 <ul>
-  <li>Log into AWSopening up the AWS Management Console</li>
-  <li>Open the AWS Management Console</li>
+  <li>Log into AWS and open the AWS Management Console</li>
   <li>Click on EC2</li>
   <li>Click launch instance</li>
   <li>Choose the EC2 instance type (you can pick images that already have Go installed)</li>
