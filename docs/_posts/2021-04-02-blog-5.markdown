@@ -18,9 +18,10 @@ The best first thing that you need to do is setup terraform by downloading it fr
 First, you want to run terraform init in whatever folder that's going to contain your terraform file. This will setup everything you need to launch the file. After that, you need to create the file with <name>.tf. After creation, you can then edit this file in whatever text editor that you prefer. 
 
 <h2>Terraform EC2 Creation</h2>
-In this example, let's just setup an EC2 instance. The module we'll be using is aws_instance. In the .tf file, we'll start it by using: resource "aws_instance" "". This will create an EC2 instance with whatever name you decide. Next, we need to dictate what type of instance it'll be. You can specify this underneath this resource by "instance_type". As t2.micro is free, we'll go with that. Next, we need to attach an ami that matches this instance type. You can find an example of one by trying to create one manually within AWS and copying the ami you see on that screen. In the beginning of the document the region is set in the "provider" field, so there's no need here. The last thing to do is run "terraform plan" to verify the syntax is proper. Once it goes through, you can run "terraform apply" to create the instance. It takes a couple of minutes to initialize, but it will eventually show up. 
+In this example, let's just setup an EC2 instance. The module we'll be using is aws_instance. In the .tf file, we'll start it by using: resource "aws_instance" "name". This will create an EC2 instance with whatever name you decide. Next, we need to dictate what type of instance it'll be. You can specify this underneath this resource by "instance_type". As t2.micro is free, we'll go with that. Next, we need to attach an ami that matches this instance type. You can find an example of one by trying to create one manually within AWS and copying the ami you see on that screen. In the beginning of the document the region is set in the "provider" field, so there's no need here. The last thing to do is run "terraform plan" to verify the syntax is proper. Once it goes through, you can run "terraform apply" to create the instance. It takes a couple of minutes to initialize, but it will eventually show up. 
+
 <h2>Conclusion</h2>
- 
+Automating infrastructure is imperative to good work flow, and luckily enough it can be pretty simple with some research. Next, we'll dive into Ansible configuration after launching the instance. 
 
 Thank you for reading!<br/>
 Blake
