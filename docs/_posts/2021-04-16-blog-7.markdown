@@ -1,0 +1,27 @@
+---
+layout: default
+title:  "Blog 7-SP21"
+date:   2021-04-16
+categories: jekyll update
+---
+
+
+<h1>Blog 7-SP21</h1>
+
+<h2>Overview</h2>
+This week, I learned how to launch a NodeJS program in an EC2 instance. 
+
+<h2>Setting up the EC2 Client</h2>
+After getting your EC2 up and running, running a NodeJS program is extremely easy. First, you need to update the EC2 client by running either "yum update" or if you're using an ubuntu approach, sudo apt update. Next, you need to figure out how to get your app files into the EC2 client. This can either be done by adding it an S3 bucket and copying the files to the EC2 from that address, or you can easily just git clone the repository that contains the files. For the project I was working on, I went with Git.
+
+To install Git, all you need to run is "sudo apt install git -y". After installation, you can run "git clone <repository link>". This will copy the repository to your current directory. After you copy it, you need some way to start it up.  
+
+<h2>Starting The App</h2>
+There are a few options to start the app. But first, you need to install NodeJS. First, you need to install curl (sudo apt install curl -y). This is needed to install NodeJS on the EC2. After that finishes, you then can download NodeJS by running "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash". After this is completed, you need to activate a node by running ". ~/.nvm/nvm.sh". Next, you need to install node using nvm (nvm install node -y). Next, you need to cd into the directory (the git cloned files) and run "npm install". At this point, you've installed curl to install NodeJS, activated a node and installed npm nodes in the project directory. Last thing to do is run the file. There are a few ways to do this. You can either do it using apache2 or through yarn (this is what I did). To get the yarn server up and running, you need to run "npm install yarn -g". Next, all you need to do is run "yarn". Lastly, run "yarn start &" to actually spin up the application. The & lets the process run in the background and leaves your CLI open. 
+
+
+<h2>Conclusion</h2>
+I hope you learned something new! Infrastructure is a fun topic to mess with. 
+
+Thank you for reading!<br/>
+Blake
