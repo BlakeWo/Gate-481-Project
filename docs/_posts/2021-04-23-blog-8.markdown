@@ -1,0 +1,26 @@
+---
+layout: default
+title:  "Blog 8-SP21"
+date:   2021-04-23
+categories: jekyll update
+---
+
+
+<h1>Blog 8-SP21</h1>
+
+<h2>Overview</h2>
+This week, I worked a few sites for Level 10 and Geeks on Site. I had to work with APCs and servers.
+
+<h2>Troubleshooting APCs</h2>
+When we went to the store, we had to find out if an APC was feeding footage to the security company as the store didn't have any local feeds. We had to connect a laptop to the APC using an HDMI to DVI cable. This is the first time I ever did this and it was a strange experience trying to navigate through all the wires. This APC unit was located up a wall, so that added another challenge. Once we connected the cable to the APC, we checked the camera feed and it was all green. The problem they were expeiencing was that the security company wasn't recieving feed. 
+
+It turns out that a previous technician had accidently unplugged a cable during their visit. Once it was connected it was fine. One thing the company wanted was verification that we could recieve footage. 
+
+<h2>Server Work</h2>
+For this job, we had to go to a store and test static IP speeds that were given to us by the company. I had never actually done this before. Setting up a static IP is pretty easy. You can do it through control panel. First, you need to open control panel -> Network & Security -> Change adapter settings -> right-click adapter settings and select Properties -> Select IPv4 -> Properties -> Use the static IP -> Enter Subnet mask -> set Default gateway -> press OK. There are a few other options to do this, one being command prompt and the other through PowerShell. 
+
+<h2>Conclusion</h2>
+It wasn't much, but learning to troubleshoot in the field can be a strange experience. You never know what the issue could be and you have to work from the most basic level to more advanced issues. 
+
+Thank you for reading!<br/>
+Blake
