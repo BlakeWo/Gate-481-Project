@@ -1,0 +1,35 @@
+---
+layout: default
+title:  "Blog 9-SP21"
+date:   2021-04-30
+categories: jekyll update
+---
+
+<h1>Blog 9-SP21</h1>
+
+<h2>Overview</h2>
+This week I learned how to create a VPC in AWS. This is a crucial step towards learning infrastructure security, as you need a VPC for to configure firewalls.
+
+<h2>Initial Setup</h2>
+VPCs can be created through the Amazon VPC Console. Once you're there, you need to:
+ <ul>
+  <li>Select <b>Your VPCs</b></li>
+  <li>Then <b>Create VPC</b></li>
+  <li>Set the following VPC details</li>
+    <ul>
+      <li><b>Name Tag</b></li>
+      <li><b>IPv4 CIDR block</b> (it's recommended that you select an CIDR block from the private IP address ranges specified in RFC 1918)</li>
+      <li><b>IPv6 CIDR block</b> (can choose one either from Amazon or one owned by you</li>
+      <li><b>Tenancy</b></li>
+      <li>Optional <b>Add tags</b></li>
+    </ul>
+  <li>Select <b>Create</b></li>
+</ul> 
+Your VPC is now created! Next, we'll talk about creating subnets in the VPC itself, which requires an IPv4 CIDR block. You can also select an Availability Zone where you want this subnet to be. An IPv6 CIDR block is only needed for your subnet if your VPC is associated with one. 
+
+
+<h2>Conclusion</h2>
+Creating a VPC is easy, but an essential step torwards creating a safer and more secure infrastructure. 
+
+Thank you for reading!<br/>
+Blake
