@@ -22,8 +22,8 @@ VPCs can be created through the Amazon VPC Console. Once you're there, you need 
       <li><b>IPv6 CIDR block</b> (can choose one either from Amazon or one owned by you</li>
       <li><b>Tenancy</b></li>
       <li>(Optional) <b>Add tags</b></li>
+     </ul>
   <li>Select <b>Create</b></li>
-    </ul>
 </ul> 
 Your VPC is now created! Next, we'll talk about creating subnets in the VPC itself, which requires an IPv4 CIDR block. You can also select an Availability Zone where you want this subnet to be. An IPv6 CIDR block is only needed for your subnet if your VPC is associated with one. 
 
