@@ -1,0 +1,25 @@
+---
+layout: default
+title:  "Blog 10-SP21"
+date:   2021-05-07
+categories: jekyll update
+---
+
+<h1>Blog 10-SP21</h1>
+
+<h2>Overview</h2>
+This week I learned about crypto mining and what is needed to do it.
+
+
+<h2>Crypto Overview</h2>
+Crypto mining is responsible for GPU shortages worldwide and is often looked at with disdain by the computer building community. There's a good reason for this. New GPUs are sold off the line to bots before real users even have a chance to pick one up. One of the main reasons behind this is GPUs were the main source of farming Bitcoin in the early days. It's still an issue, but not nearly as much as it used to be as more and more power usage has been required. A miner will add individual blocks to the blockchain by solving complicated mathematical problems. This can be done with either GPUs or ASICs (which I'll cover a bit later), as they require computation power and electrical power. Miners compete with each other to see who can solve the block first, and whoever does will be the one to add it. The miner who wins typically receives 6.25 (as of November 2020) bitcoins as a reward. 
+
+<h2>Current Mining Methods</h2>
+Mining requires a bunch of energy. If you can't out mine the amount it takes to mine, then it becomes fruitless. The point is mine more than it costs to do it. If you want to mine Bitcoin efficiently, then it's best to buy an ASIC Bitcoin Miner. There are different manufacturers, like Antminer or WhatsMine, to choose from. As so many people are mining now, mining from a GPU or a CPU isn't as profitable anymore. GPUs have more hashing power than CPUs, which is why they became the mining craze in the first place. You can think of an ASIC as a Bitcoin mining computer. ASIC machines vary in their hash power, meaning some mine more than others. The more serious Bitcoin mining efforts take place in data centers, filled with ASIC machines. 
+
+
+<h2>Conclusion</h2>
+Crypto mining can be extremely expensive and require massive amounts of power, but it can also be extremely profitable. 
+
+Thank you for reading!<br/>
+Blake
